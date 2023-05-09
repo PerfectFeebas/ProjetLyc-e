@@ -11,6 +11,12 @@ body {
 header.header img {
   display: flex;
   width: 150px;
+  padding-left: 8vh;
+}
+
+header.header img {
+  width: 40vh;
+  height: auto;
 }
 
 section.map {
@@ -25,18 +31,18 @@ section.map a {
 
 section.map img {
   animation: fadeIn 2s;
-  background-color: rgba(139, 217, 248, 0.6);
+  background-color: rgba(21, 63, 118, 100);
   width: 1280px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 4vh; 
+  margin-bottom: 2vh; 
   padding-top: 10px;
   padding-left: 10px;
   padding-bottom: 10px;
   padding-right: 10px;
   align-items: center;
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
 section.top-page {
@@ -69,7 +75,7 @@ section.ButtonsC a {
   color: black;
   padding-right: 40px;
   padding-left: 40px;
-  outline: 8px solid double rgba(139, 217, 248, 0.6);
+  outline: 8px solid double rgba(41, 83, 118, 100);
   border-radius: 2rem;
 }
 
@@ -91,17 +97,17 @@ section.ButtonsC img {
 }
 
 section.Buttons a {
-  background-color:rgba(139, 217, 248, 0.6);
+  background-color:rgba(21, 63, 118, 100);
   list-style: none;
   font-size: 9vh;
-  color: black;
+  color: rgba(214, 244, 244, 100);
   text-align: center;
   margin-right: 4vh;
   margin-left: 4vh;
   padding-right: 40px;
   padding-left: 40px;
   outline: 8px thick double rgba(170, 50, 20, .6);
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
 div.landing-page h1 {
